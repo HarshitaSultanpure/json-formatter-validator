@@ -18,7 +18,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/json/format",
+        "https://json-formatter-backend-production.up.railway.app/api/json/format",
         {
           jsonText,
         }
